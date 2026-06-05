@@ -1,7 +1,7 @@
 # Kullanım Koşulları
 
-**Yürürlük tarihi:** 27 Nisan 2026
-**Son güncelleme:** 27 Nisan 2026
+**Yürürlük tarihi:** 5 Haziran 2026
+**Son güncelleme:** 5 Haziran 2026
 
 Bu Kullanım Koşulları ("Koşullar"), Dinamo iOS uygulamasının ("Dinamo", "uygulama", "hizmet") kullanımına ilişkin sizinle Mehmet Onur Güngör (Türkiye'de mukim gerçek kişi geliştirici, "biz", "Dinamo") arasındaki sözleşmeyi düzenler. Lütfen uygulamayı kullanmadan önce bu metni dikkatlice okuyunuz.
 
@@ -14,6 +14,8 @@ Dinamo'yu indirip kullandığınızda bu Koşulları, beraberinde Gizlilik Polit
 Dinamo, Türkiye'deki elektrikli araç şarj istasyonlarını haritada görüntülemenize yarayan **ücretsiz ve kişisel** bir mobil uygulamadır. İstasyon listesi ve detayları, Türkiye Cumhuriyeti Enerji Piyasası Düzenleme Kurumu'nun (EPDK) sarjtr.epdk.gov.tr adresinde kamuya açık olarak yayımladığı veriler temel alınarak sunulur. Uygulama; istasyon konumu, soket tipi, güç bilgileri, operatör adı gibi detayları haritada gösterir ve istasyonlara navigasyon başlatma imkânı verir.
 
 Uygulama içinde reklam, satın alma, abonelik veya gizli ücret bulunmaz. Dinamo, tek bir geliştirici tarafından kişisel proje olarak sürdürülmektedir; bir şirket veya kurum tarafından işletilmemektedir.
+
+Uygulama; isteğe bağlı ve yalnızca açık izninizle çalışan bazı özellikler sunar (anonim kullanım istatistikleri ve çökme/tanılama verisi). Bu özellikler varsayılan olarak kapalıdır ve verilerinizin nasıl işlendiği Gizlilik Politikası'nda ayrıntılı olarak açıklanır.
 
 ## 3. EPDK Verisinin Niteliği
 
@@ -61,7 +63,7 @@ Dinamo'yu önceden bildirimde bulunarak veya bulunmadan; geliştirme amaçlı, h
 
 ## 8. Koşullarda Değişiklikler
 
-Bu Koşulları zaman zaman güncelleyebiliriz. Önemli değişiklikler uygulama içinde duyurulur. Güncellemeden sonra uygulamayı kullanmaya devam etmeniz, yeni Koşulları kabul ettiğiniz anlamına gelir.
+Bu Koşulları zaman zaman güncelleyebiliriz. Önemli değişiklikler uygulama içinde duyurulur. Güncellemeden sonra uygulamayı kullanmaya devam etmeniz, yeni Koşulları kabul ettiğiniz anlamına gelir. Bu hüküm yalnızca işbu Kullanım Koşulları için geçerlidir. Kişisel verilerinizin işlenmesine ilişkin açık rızanız bundan ayrıdır; veri toplamayı genişleten değişikliklerde uygulamayı kullanmaya devam etmeniz açık rıza yerine geçmez ve gerektiğinde rızanız yeniden, ayrıca alınır (bkz. Gizlilik Politikası).
 
 ## 9. Uygulanacak Hukuk ve Yetkili Mahkeme
 
@@ -80,8 +82,8 @@ Bu Koşullarla ilgili sorularınız için:
 
 # Terms of Service
 
-**Effective date:** April 27, 2026
-**Last updated:** April 27, 2026
+**Effective date:** June 5, 2026
+**Last updated:** June 5, 2026
 
 These Terms of Service ("Terms") govern the agreement between you and Mehmet Onur Güngör (an individual developer residing in Türkiye, "we", "Dinamo") regarding your use of the Dinamo iOS app ("Dinamo", "the app", "the service"). Please read these Terms carefully before using the app.
 
@@ -94,6 +96,8 @@ By downloading and using Dinamo, you confirm that you have read, understood, and
 Dinamo is a **free, personal-project** mobile app that helps you find electric vehicle charging stations across Türkiye on a map. The list and details of stations are sourced from data published publicly by the Energy Market Regulatory Authority of Türkiye (EPDK) at sarjtr.epdk.gov.tr. The app shows information such as station location, connector type, power rating, and operator name, and allows you to start navigation to a station.
 
 The app contains no advertising, no in-app purchases, no subscriptions, and no hidden fees. Dinamo is maintained by a single individual developer as a personal project — it is not operated by a company or institution.
+
+The app offers some optional features that run only with your explicit opt-in (anonymous usage analytics and crash/diagnostics data). These are off by default; how any data is handled is explained in the Privacy Policy.
 
 ## 3. Nature of EPDK Data
 
@@ -141,7 +145,7 @@ We reserve the right to modify, update, suspend, or discontinue Dinamo at any ti
 
 ## 8. Changes to These Terms
 
-We may update these Terms from time to time. Significant changes will be announced in the app. Your continued use of the app after the update constitutes acceptance of the new Terms.
+We may update these Terms from time to time. Significant changes will be announced in the app. Your continued use of the app after the update constitutes acceptance of the new Terms. This applies only to these Terms of Service. Your explicit consent to the processing of your personal data is separate; for changes that expand data collection, continued use does NOT substitute for explicit consent, and your consent is obtained again, separately, where required (see the Privacy Policy).
 
 ## 9. Governing Law and Jurisdiction
 
