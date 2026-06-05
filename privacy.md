@@ -1,171 +1,297 @@
-# Gizlilik Politikası
+# Gizlilik Politikası ve KVKK Aydınlatma Metni
 
-**Yürürlük tarihi:** 27 Nisan 2026
-**Son güncelleme:** 27 Nisan 2026
+**Yürürlük tarihi:** 5 Haziran 2026
+**Son güncelleme:** 5 Haziran 2026
+**Politika sürümü:** 2.0
 
-Bu metin, Dinamo iOS uygulamasının ("Dinamo", "uygulama") kullanıcılarının kişisel verilerinin nasıl işlendiğine ilişkin 6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") kapsamında hazırlanmış aydınlatma metnidir. Lütfen uygulamayı kullanmadan önce dikkatlice okuyunuz.
-
-## 1. Veri Sorumlusu
-
-Bu uygulama bir kurumsal şirket tarafından değil, **Mehmet Onur Güngör** adlı gerçek kişi tarafından kişisel proje olarak yayınlanmaktadır.
-
-- **Adres:** İstanbul, Türkiye
-- **TC Kimlik No (vergi kimlik no olarak):** 34633588246
-- **İletişim e-posta:** monurgungor6@gmail.com
-
-KVKK kapsamındaki tüm başvurularınızı yukarıdaki e-posta adresine iletebilirsiniz.
-
-## 2. Topladığımız Veriler
-
-Dinamo, yalnızca uygulamanın temel işlevini yerine getirebilmek için gerekli olan minimum veriyi işler:
-
-- **Hassas konum (precise location)** — Yalnızca uygulama açık ve kullanımdayken, yakınınızdaki elektrikli araç şarj istasyonlarını harita üzerinde göstermek amacıyla. Bu veri cihazınızda veya sunucularımızda saklanmaz, üçüncü taraflarla paylaşılmaz.
-- **Yaklaşık konum (coarse location)** — Hassas konuma erişim verilmediği veya kullanılamadığı durumlarda aynı amaçla kullanılır.
-
-İzin metni: Uygulama yalnızca `NSLocationWhenInUseUsageDescription` (uygulama kullanımdayken konum) izni talep eder. Arka planda konum verisi toplanmaz.
-
-## 3. Toplamadığımız Veriler
-
-Şeffaflık adına, Dinamo'nun **toplamadığı** verileri açıkça beyan ederiz:
-
-- Ad, soyad, e-posta, telefon numarası gibi kimlik veya iletişim bilgisi toplamayız.
-- Kullanıcı hesabı, kayıt veya giriş sistemi v1.0.0 sürümünde aktif değildir.
-- Hiçbir analitik (analytics) servisi kullanmıyoruz. Davranışsal izleme yapmıyoruz.
-- Reklam SDK'sı, reklam tanımlayıcısı (IDFA) veya pazarlama izleyicileri kullanmıyoruz.
-- Cihazınızda çerez (cookie) saklamayız.
-- Fotoğraf, kamera, mikrofon, kişiler, takvim, sağlık verisi gibi hassas verilere erişim talep etmiyoruz.
-
-## 4. Üçüncü Taraf Servisleri
-
-Dinamo'nun çalışabilmesi için aşağıdaki üçüncü taraf servisler kullanılmaktadır:
-
-- **Mapbox (Mapbox, Inc., ABD)** — Harita döşemelerini (map tiles) sunmak için kullanılır. Mapbox SDK'sının analitik telemetrisi `MGLMapboxMetricsEnabled = false` Info.plist anahtarı ile devre dışı bırakılmıştır. Ancak harita döşemeleri yüklenirken Mapbox sunucuları, herhangi bir harita SDK'sı için kaçınılmaz olduğu üzere IP adresinizi görür. Kişisel tanımlayıcı gönderilmez. Detay: https://www.mapbox.com/legal/privacy
-- **EPDK (Enerji Piyasası Düzenleme Kurumu)** — sarjtr.epdk.gov.tr üzerinden kamuya açık olarak yayınlanan şarj istasyonu listesi kaynak olarak kullanılır. Bu veri, doğrudan cihazınızdan değil, Dinamo'nun arka uç (backend) sunucusu üzerinden çekilir. Yani EPDK yalnızca Dinamo sunucusunun IP'sini görür, sizin IP'nizi görmez.
-- **Railway (Railway Corp., Frankfurt — AB)** — Dinamo'nun arka uç sunucusu Railway altyapısında, Almanya/Frankfurt bölgesinde barındırılır. Standart web sunucusu logları kapsamında istek IP adresleri 30 günden kısa süreyle, sadece kötüye kullanım önleme ve hız sınırlaması (rate limiting) amacıyla tutulur. Detay: https://railway.com/legal/privacy
-
-## 5. Veri Saklama Süreleri
-
-- Cihazınızda hiçbir kişisel veri kalıcı olarak saklanmaz.
-- Arka uç sunucu logları en fazla 30 gün tutulur, ardından otomatik olarak silinir.
-- Konum veriniz hiçbir zaman kalıcı olarak kaydedilmez; yalnızca yakındaki istasyon sorgusu için anlık olarak kullanılır.
-
-## 6. Çocukların Gizliliği
-
-Dinamo App Store'da 4+ yaş derecelendirmesine sahiptir, ancak özel olarak 13 yaş altı çocuklara yönelik tasarlanmamıştır. 13 yaş altı çocuklardan bilerek kişisel veri toplamayız.
-
-## 7. Yurt Dışına Veri Aktarımı
-
-Arka uç sunucumuz Avrupa Birliği üyesi ülke olan Almanya'nın Frankfurt bölgesinde bulunmaktadır. Konum sorgusu yapıldığında, koordinatlarınız işlenmek üzere bu sunucuya iletilir; ancak işlem tamamlandıktan sonra saklanmaz. Bu durum KVKK'nın 9. maddesi kapsamında yurt dışına veri aktarımı niteliğindedir ve uygulamayı kullanmanız bu aktarıma açık rızanız anlamına gelir.
-
-## 8. Haklarınız
-
-KVKK Madde 11 ve GDPR Madde 15-22 kapsamında aşağıdaki haklara sahipsiniz:
-
-- Kişisel verinizin işlenip işlenmediğini öğrenme,
-- İşlenmişse buna ilişkin bilgi talep etme,
-- İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme,
-- Yurt içinde/yurt dışında aktarıldığı üçüncü kişileri bilme,
-- Eksik veya yanlış işlenmişse düzeltilmesini isteme,
-- Silinmesini veya yok edilmesini isteme,
-- Düzeltme/silme işleminin aktarıldığı üçüncü kişilere bildirilmesini isteme,
-- Otomatik sistemlerle yapılan analiz sonucu aleyhinize bir sonuç çıkmasına itiraz etme,
-- Hukuka aykırı işlenme nedeniyle zarara uğramanız halinde tazminat talep etme.
-
-Bu haklarınızı kullanmak için monurgungor6@gmail.com adresine başvurabilirsiniz. Başvurunuza KVKK Madde 13 uyarınca en geç otuz (30) gün içinde yanıt verilir.
-
-## 9. Politikadaki Değişiklikler
-
-Bu gizlilik politikasını gerektiğinde güncelleyebiliriz. Önemli değişiklikler uygulama içinde duyurulur ve "Son güncelleme" tarihi her revizyonda güncellenir.
-
-## 10. İletişim
-
-KVKK kapsamındaki başvurularınız ve gizlilikle ilgili tüm sorularınız için:
-
-**E-posta:** monurgungor6@gmail.com
+Bu metin, Dinamo iOS uygulamasının ("Dinamo", "uygulama") kullanıcılarının kişisel verilerinin nasıl işlendiğine ilişkin, 6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") kapsamında hazırlanmış **aydınlatma metni** ve gizlilik politikasıdır. Avrupa Birliği'nde bulunan kullanıcılar bakımından, uygulanabildiği ölçüde Genel Veri Koruma Tüzüğü ("GDPR") da gözetilmiştir. Lütfen uygulamayı kullanmadan ve herhangi bir veri paylaşımına izin vermeden önce dikkatlice okuyunuz.
 
 ---
 
-# Privacy Policy
+## 0. Özet — 30 saniyede neyi kabul ediyorsunuz?
 
-**Effective date:** April 27, 2026
-**Last updated:** April 27, 2026
+- Dinamo'yu kullanmak için **hesap açmanıza, giriş yapmanıza veya ad-soyad/e-posta vermenize gerek yoktur.**
+- Uygulamanın temel işlevi (yakındaki şarj istasyonlarını harita üzerinde bulmak, arama yapmak, **rota planlamak**) **hiçbir veri paylaşımı olmadan tam olarak çalışır.**
+- **Sizi takip eden bir geçmiş/iz kaydı tutmuyoruz.** Kişiye bağlı bir konum izi veya kişiye özel bir profil **yoktur**. Topladığımız her şey **kimliksiz** ve **toplulaştırılmıştır.**
+- Aşağıdaki iki seçenek yalnızca siz **açıkça izin verirseniz** devreye girer. İlk açılışta her biri için **ayrı ayrı**, **varsayılan olarak KAPALI** seçenekler sunulur:
+  1. **Anonim kullanım istatistikleri** — özellikle **rota planlayıcı** kullanıldığında, hangi bölgeler arasında, hangi araçla plan yapıldığı; ayrıca hangi ekranların/aramaların popüler olduğu. Tümü **kimliğe bağlanmadan, il/ilçe düzeyine kabalaştırılarak ve toplulaştırılarak** kaydedilir.
+  2. **Çökme ve tanılama verisi** — uygulamanın kararlılığını ölçmek için **Firebase Crashlytics** (Google) aracılığıyla. Açana kadar **hiç başlatılmaz**.
+- **Rota planlayıcının başlangıç noktası varsayılan olarak anlık konumunuzdur**; ama analitik kaydı yapılmadan **önce** il/ilçe düzeyine kabalaştırılır — ham koordinatınız hiçbir zaman kaydedilmez.
+- Verdiğiniz her izni **istediğiniz zaman Ayarlar'dan geri alabilirsiniz**; izni kapatmak gelecekteki toplamayı **derhal durdurur.**
+- **Reklam yok, reklam takibi (IDFA) yok, ATT izleme izni yok, veri satışı yok, üçüncü taraflarla pazarlama amaçlı paylaşım yok.**
 
-This document explains how the Dinamo iOS application ("Dinamo", "the app") handles your personal data. It is prepared in compliance with both Turkey's Personal Data Protection Law No. 6698 ("KVKK") and the EU General Data Protection Regulation ("GDPR"). Please read it carefully before using the app.
+Bu özet bilgilendirme amaçlıdır; bağlayıcı olan aşağıdaki tam metindir.
 
-## 1. Who We Are
+---
 
-Dinamo is published as a personal project by an individual, not by an incorporated company. The data controller is **Mehmet Onur Güngör**, an individual residing in Türkiye.
+## 1. Veri Sorumlusu (KVKK m. 10/1-a)
 
-- **Address:** İstanbul, Türkiye
-- **National ID (used as tax identifier):** 34633588246
-- **Contact email:** monurgungor6@gmail.com
+Bu uygulama bir kurumsal şirket tarafından değil, **Mehmet Onur Güngör** adlı **gerçek kişi** tarafından kişisel proje olarak yayınlanmaktadır. KVKK anlamında **veri sorumlusu** bu gerçek kişidir.
 
-You may contact us at the email address above for any privacy-related request.
+- **Veri sorumlusu:** Mehmet Onur Güngör (gerçek kişi)
+- **Adres:** İstanbul, Türkiye
+- **İletişim e-postası:** monurgungor6@gmail.com
 
-## 2. What Data We Collect
+KVKK kapsamındaki tüm başvurularınızı ve gizlilikle ilgili sorularınızı yukarıdaki e-posta adresine iletebilirsiniz.
 
-Dinamo processes only the minimum data required to deliver its core function:
+---
 
-- **Precise location** — Used solely while the app is open and in use, in order to display nearby electric vehicle charging stations on the map. This data is never persisted on your device or on our servers, and is never shared with third parties.
-- **Coarse location** — Used as a fallback when precise location is unavailable, for the same purpose.
+## 2. Hangi Verileri, Hangi Amaçla İşliyoruz? (KVKK m. 10/1-b, m. 4)
 
-The app requests only the `NSLocationWhenInUseUsageDescription` permission ("location while in use"). Background location is not collected.
+> **Önemli — neyi YAPMIYORUZ:** Dinamo'da sizi takip eden bir "şarj geçmişi" özelliği **yoktur**. Cihazınıza bağlanmış kalıcı bir konum izi veya kişiye özel bir profil **tutmuyoruz**. Uygulama, gerçek şarj olaylarını **gözlemleyemez ve gözlemlemez** — bunu yapacak bir özellik yoktur. Yalnızca uygulama içindeki kullanıcı eylemlerini (en zengini rota planlayıcı olmak üzere) **kimliksiz ve toplu** olarak ölçeriz.
 
-## 3. What We Do NOT Collect
+### 2.0 Temel işlev — anlık konum (kalıcı saklanmaz, izne tabi değildir)
 
-For full transparency, here is what Dinamo explicitly does **not** collect:
+- **İşlenen veri:** Anlık konum.
+- **Amaç:** (1) Yakındaki şarj istasyonlarını haritada göstermek; (2) rota planlayıcının başlangıç noktasını belirlemek.
+- **Yöntem:** Yalnızca uygulama açık ve kullanımdayken. Arka planda konum **toplanmaz**; "Her Zaman (Always)" izni **istenmez.**
+- **Saklama:** Kalıcı olarak **saklanmaz.** Sizi takip eden bir iz oluşturulmaz.
+- **Hukuki sebep:** Hizmetin ifası (KVKK m. 5/2-c).
 
-- We do not collect your name, surname, email address, phone number, or any other identifier.
-- There is no user account, sign-up, or sign-in feature in v1.0.0.
-- We use no analytics services. We perform no behavioral tracking.
-- We use no advertising SDKs, no advertising identifiers (IDFA), and no marketing trackers.
-- We store no cookies on your device.
-- We do not request access to photos, camera, microphone, contacts, calendar, or health data.
+> **Şeffaflık notu (rota planlayıcı + analitik):** Rota planlayıcının başlangıç noktası çoğu zaman **hassas anlık konumunuzdur.** Bu yüzden, **eğer analitiğe izin vermişseniz**, bu nokta herhangi bir kayıt yapılmadan **önce** il/ilçe düzeyine **kabalaştırılır** ve ancak kimliksiz olarak işlenir (bkz. 2.1). Analitiğe izin vermediyseniz hiçbir rota verisi gönderilmez.
 
-## 4. Third-Party Services
+### 2.1 Anonim kullanım istatistikleri (isteğe bağlı — varsayılan KAPALI)
 
-Dinamo relies on the following third-party services to operate:
+**(a) Rota planlama istatistikleri.** Rota planlayıcı çalıştırıldığında: **Başlangıç BÖLGESİ** ve **varış BÖLGESİ** (ham koordinat değil; il/ilçe düzeyine kabalaştırılmış), seçilen **araç**, **tercih** (en hızlı/en ucuz) ve **önerilen istasyonlar**. Hiçbir kalıcı kimlik eklenmez; sunucuda kimliksiz ve toplulaştırılmış olarak saklanır. Ender kombinasyonlar k-anonimlik eşiğiyle bastırılır; zaman bilgisi gün düzeyine kabalaştırılır.
 
-- **Mapbox (Mapbox, Inc., USA)** — Used to render map tiles. The app explicitly disables Mapbox's analytics telemetry via the `MGLMapboxMetricsEnabled = false` Info.plist key. However, when map tiles are loaded, Mapbox's servers will see your IP address — this is unavoidable for any map SDK. No personal identifier is sent. See: https://www.mapbox.com/legal/privacy
-- **EPDK (Energy Market Regulatory Authority of Türkiye)** — The public list of EV charging stations published at sarjtr.epdk.gov.tr is used as the data source. This data is not fetched directly from your device; it is proxied through Dinamo's own backend. As a result, EPDK only sees the backend's IP, never yours.
-- **Railway (Railway Corp., Frankfurt — EU)** — Dinamo's backend is hosted on Railway infrastructure in the Frankfurt, Germany region. Standard webserver logs may contain request IP addresses, retained for less than 30 days for the sole purpose of rate limiting and abuse prevention. See: https://railway.com/legal/privacy
+**(b) Etkileşim istatistikleri.** İstasyon görüntüleme, arama, yakındakiler sorgusu, filtre kullanımı, ekran görüntülemeleri — kimliksiz sayılar, ham koordinat yok.
+
+- **Hukuki sebep:** Veriler anonim olduğundan KVKK kapsamı dışındadır (m. 28/1-b). Buna rağmen şeffaflık ve Apple etiketi dürüstlüğü için **açık izninize tabi tutulmuştur**, varsayılan KAPALI.
+- **Anonimlik teminatı:** Kabalaştırma cihazda yapılır, kimlik eklenmez, k-anonimlik uygulanır. Bu güvenceler geçersizleşirse toplama **durdurulur.**
+
+### 2.2 Çökme ve tanılama verisi — Firebase Crashlytics (isteğe bağlı — varsayılan KAPALI)
+
+- **İşlenen veri:** Çökme yığın izleri, uygulama/işletim sistemi sürümü, cihaz modeli ve bir **Firebase kurulum kimliği**. Google LLC'ye (ABD) iletilir.
+- **Kimliğe bağlı:** **Evet** — Firebase kurulum kimliği kalıcı bir tanımlayıcıdır.
+- **Başlatma:** Siz açana kadar **başlatılmaz** (`FirebaseCrashlyticsCollectionEnabled = false`). Reklam/Analytics bileşenleri dahil edilmediğinden IDFA ve ATT izni **gerekmez.**
+- **Saklama:** Google'da yaklaşık **90 gün.**
+- **Hukuki sebep:** Açık rıza (KVKK m. 5/1).
+
+### 2.3 Sunucu istek kayıtları
+
+IP adresi gibi alanlar mümkün olduğunca redakte edilir; loglar analitik kaynağı olarak kullanılmaz. Amaç: kötüye kullanım önleme ve hata teşhisi (KVKK m. 5/2-f, m. 12).
+
+---
+
+## 3. Verilerin Kimlere Aktarılabileceği (KVKK m. 10/1-c)
+
+| Alıcı | Rolü | Ne görür? |
+|---|---|---|
+| **Railway Corp.** (Frankfurt, Almanya — AB) | Veri işleyen (barındırma) | Anonim istatistikleri barındırır; kişisel konum geçmişi **saklanmaz.** |
+| **Google LLC** (ABD) — Firebase Crashlytics | Veri işleyen (çökme/tanılama) | Yalnızca izin açıksa: çökme verisi + Firebase kurulum kimliği. |
+| **Mapbox, Inc.** (ABD) | Bağımsız sağlayıcı | Harita yüklenirken IP adresinizi görür. Mapbox analitik telemetrisi devre dışı. |
+| **EPDK** (Türkiye) | Kamu veri kaynağı | Yalnızca sunucu IP'mizi görür, sizinkini görmez. |
+
+Pazarlama amaçlı hiçbir üçüncü taraf reklam/izleme SDK'sı kullanılmamaktadır.
+
+---
+
+## 4. Yurt Dışına Veri Aktarımı (KVKK m. 9 — 7499 sayılı Kanun, yürürlük 01.06.2024)
+
+Üç alıcıya yurt dışı aktarım söz konusudur: Railway (Almanya), Mapbox (ABD), Google/Firebase (ABD). Bu aktarımlar "uygulamayı kullanmaya devam etmeniz = onay" gibi zımni bir onaya **dayandırılmamaktadır.**
+
+Aktarım temeli: Kurul onaylı **standart sözleşme** ve/veya sağlayıcıların DPA/SCC taahhütlerinin bu çerçeveye oturtulması; imzadan itibaren **5 iş günü içinde Kurul'a bildirim.** (AB veya ABD için yeterlilik kararı bulunmamaktadır.)
+
+---
+
+## 5. Veri Saklama Süreleri
+
+| Veri türü | Saklama |
+|---|---|
+| Anlık konum | Saklanmaz |
+| Anonim istatistikler (ham) | Birkaç gün; toplulaştırılıp ham kayıtlar silinir |
+| Anonim istatistikler (toplu) | Süresiz (anonim veri) |
+| Firebase Crashlytics | ~90 gün (Google) |
+| Sunucu logları | Kısa süreli; IP redakte edilir |
+
+---
+
+## 6. İzni Geri Alma ve Verilerin Silinmesi (KVKK m. 7, m. 11)
+
+1. **İzni geri alma:** Her iki seçeneği Ayarlar'dan istediğiniz zaman kapatabilirsiniz; gelecekteki toplama **derhal durur.**
+2. **Anonim istatistikler:** Kimliksiz ve toplulaştırılmış olduğundan size ait bir kayıt yoktur. Anlamlı silme = toplamayı durdurmaktır.
+3. **Crashlytics verisi:** Tanılama iznini kapatmanız toplamayı durdurur. Halihazırda Google'da tutulan kayıtların silinmesini monurgungor6@gmail.com adresine e-posta ile talep edebilirsiniz; talebiniz 30 gün içinde yanıtlanır.
+
+---
+
+## 7. Haklarınız (KVKK m. 11, GDPR m. 15-22)
+
+Kişisel verinizin işlenip işlenmediğini öğrenme, bilgi talep etme, düzeltme, silme, aktarım, itiraz ve tazminat talep etme haklarına sahipsiniz. Başvuru için: monurgungor6@gmail.com (30 gün içinde yanıt).
+
+---
+
+## 8. Açık Rıza ve Niteliği
+
+Kişisel veri içeren işleme (Crashlytics) için hukuki temel açık rızadır. Rıza: **belirli** (ayrı toggle), **bilgilendirilmiş** (bu metin), **özgür irade** (tüm seçenekler varsayılan KAPALI; hiçbirini açmadan uygulama tam çalışır), **geri alınabilir** (Ayarlar'dan). Hizmetin kullanımı bu işlemelere izin verme koşuluna **bağlanmamıştır.**
+
+---
+
+## 9. Çocukların Gizliliği
+
+4+ yaş derecelendirmesi vardır; 13 yaş altı çocuklara yönelik tasarlanmamıştır ve onlardan bilerek kişisel veri toplanmaz.
+
+---
+
+## 10. Veri Güvenliği (KVKK m. 12)
+
+TLS/HTTPS şifrelemesi; koordinatlar analitik kaydından önce kabalaştırılır; loglarda IP redakte edilir; Crashlytics izin açılana kadar başlatılmaz. Veri ihlali hâlinde Kurul'a 72 saat içinde bildirim yapılır.
+
+---
+
+## 11. VERBİS
+
+Veri sorumlusu, Kurul 2023/1154 sayılı kararındaki istisna kriterlerinin (50'den az çalışan, 100 milyon TL altı bilanço, özel nitelikli veri işleme ana faaliyet değil) altında kalan bir gerçek kişidir; VERBİS kaydından büyük olasılıkla muaftır. Tüm KVKK yükümlülükleri geçerliliğini korur.
+
+---
+
+## 12. Politikadaki Değişiklikler
+
+Toplanan veri kapsamını genişleten önemli değişikliklerde "kullanmaya devam etmeniz = onay" yaklaşımına dayanmayız; yeniden bilgilendirip gerektiğinde açık rızanızı yeniden alırız.
+
+---
+
+## 13. İletişim
+
+**Veri sorumlusu:** Mehmet Onur Güngör (İstanbul, Türkiye)
+**E-posta:** monurgungor6@gmail.com
+
+---
+---
+
+# Privacy Policy and Data Protection Notice
+
+**Effective date:** June 5, 2026
+**Last updated:** June 5, 2026
+**Policy version:** 2.0
+
+This document is the disclosure notice and privacy policy explaining how the Dinamo iOS app ("Dinamo", "the app") handles users' personal data, prepared in compliance with Turkey's Personal Data Protection Law No. 6698 ("KVKK"). For users in the EU, the GDPR is also observed where applicable.
+
+---
+
+## 0. Summary — 30 seconds
+
+- You **do not need an account or any personal details** to use Dinamo.
+- The core app (map, search, route planning) **works fully with no data sharing.**
+- **No history or trail follows you.** No device-keyed location trail, no personal profile. Everything we collect is **id-less and aggregated.**
+- Two options activate **only with your explicit opt-in** — both **default OFF:**
+  1. **Anonymous usage analytics** — route-plan areas, vehicle, preference, station suggestions, screen/search counts. Id-less, coarsened to city/district, aggregated.
+  2. **Crash & diagnostics** — via **Firebase Crashlytics** (Google). Never started until you turn it on.
+- The route planner's **origin defaults to your precise location** but is **coarsened before any logging** — raw coordinates are never stored.
+- Revoke any consent **anytime in Settings**; turning a toggle off **immediately stops** collection.
+- **No ads, no IDFA, no ATT prompt, no data sale.**
+
+---
+
+## 1. Data Controller
+
+**Mehmet Onur Güngör** (an individual, not a company) — İstanbul, Türkiye — monurgungor6@gmail.com.
+
+---
+
+## 2. What We Process and Why
+
+> **What we do NOT do:** No "charging history" feature. No persistent device-keyed location trail. No per-user store. The app cannot observe real charging events — there is no such feature. We only measure in-app actions (primarily route planning) in id-less, aggregated form.
+
+### 2.0 Core function — momentary location (not stored)
+
+Used for: (1) nearby station display; (2) route planner origin. When-in-use only, no background, no Always permission. **Not persisted.** Legal basis: service performance (KVKK Art. 5/2-c).
+
+> **Transparency note:** Route origin is often your precise current location. If you opted into analytics, it is **coarsened to city/district before any logging.** If you did not opt in, no route data is sent at all.
+
+### 2.1 Anonymous usage analytics (optional — default OFF)
+
+**(a) Route-plan analytics.** When you run the route planner: **origin AREA** and **destination AREA** (coarsened, not raw coordinates), **vehicle**, **preference** (fastest/cheapest), **suggested stations**. No persistent identifier. Stored id-less and aggregated. Rare combinations suppressed via k-anonymity; timestamps coarsened to the day. Output: market insight (popular corridors, destination demand, vehicle mix) — **not a per-user trip history.**
+
+**(b) Interaction analytics.** Id-less counts: station views, searches, nearby queries, filter use, screen views. No coordinates.
+
+Legal basis: anonymized data falls outside KVKK (Art. 28/1-b). Still opt-in for transparency. Anonymity guarantee: coarsening on-device, no identifier, k-anonymity suppression — if guarantee breaks, collection stops.
+
+### 2.2 Crash & diagnostics — Firebase Crashlytics (optional — default OFF)
+
+Crash stack traces, app/OS version, device model, and a **Firebase installation ID** sent to **Google LLC (USA)**. **Never started until you opt in** (`FirebaseCrashlyticsCollectionEnabled = false`). No ad/Analytics components → no IDFA, no ATT. Retention ~90 days (Google). Legal basis: explicit consent (KVKK Art. 5/1).
+
+### 2.3 Server request logs
+
+IP fields redacted where possible. Used only for abuse prevention and error diagnosis (KVKK Art. 5/2-f, Art. 12).
+
+---
+
+## 3. Recipients
+
+| Recipient | Role | What it sees |
+|---|---|---|
+| **Railway Corp.** (Frankfurt, Germany — EU) | Data processor (hosting) | Anonymous aggregated analytics. No personal location history stored. |
+| **Google LLC** (USA) — Firebase Crashlytics | Data processor (crash/diagnostics) | Only if opted in: crash data + Firebase installation ID. |
+| **Mapbox, Inc.** (USA) | Independent provider | Your IP when map tiles load. Mapbox analytics telemetry disabled. |
+| **EPDK** (Türkiye) | Public data source | Only our server's IP, never yours. |
+
+No third-party advertising or tracking SDK is used.
+
+---
+
+## 4. International Data Transfers (KVKK Art. 9, Law 7499, in force 01.06.2024)
+
+Transfers to Railway (Germany), Mapbox (USA), and Google/Firebase (USA). **Not** based on implied "continued use = consent." No adequacy decision for EU or USA. Legal basis: **appropriate safeguards** — Board-approved standard contract / DPA-SCC mapping with each recipient + notification to the Board within **5 business days** of execution.
+
+---
 
 ## 5. Data Retention
 
-- No personal data is permanently stored on your device.
-- Backend webserver logs are retained for at most 30 days, then automatically deleted.
-- Your location is never persisted; it is used only momentarily to query nearby stations.
+| Data type | Retention |
+|---|---|
+| Momentary location | Not stored |
+| Anonymous analytics (raw) | A few days; rolled up then deleted |
+| Anonymous analytics (aggregated) | Indefinite (anonymous, Art. 28) |
+| Firebase Crashlytics | ~90 days (Google default) |
+| Server logs | Short; IP redacted |
 
-## 6. Children's Privacy
+---
 
-Dinamo carries a 4+ age rating on the App Store but is not specifically directed at children under 13. We do not knowingly collect personal data from children under the age of 13.
+## 6. Withdrawing Consent and Data Deletion
 
-## 7. International Data Transfers
+1. **Withdraw consent:** Turn either toggle off in Settings — future collection **immediately stops.**
+2. **Anonymous analytics:** Id-less and aggregated, so no record identifies you. Meaningful erasure = stopping collection.
+3. **Crashlytics data:** Turning the diagnostics toggle off stops collection. For records already at Google, email monurgungor6@gmail.com — we will action the deletion within 30 days.
 
-Our backend is located in Frankfurt, Germany — an EU member state. When you query nearby stations, your coordinates are transmitted to this server for processing and are not retained afterwards. Under KVKK Article 9, this constitutes an international transfer of personal data; your continued use of the app constitutes explicit consent to this transfer.
+---
 
-## 8. Your Rights
+## 7. Your Rights (KVKK Art. 11, GDPR Arts. 15-22)
 
-Under KVKK Article 11 and GDPR Articles 15-22, you have the right to:
+Right to learn, access, correct, erase, object, and claim damages. Contact: monurgungor6@gmail.com (response within 30 days).
 
-- Learn whether your personal data is being processed,
-- Request information about the processing,
-- Learn the purpose of processing and whether it is used in line with that purpose,
-- Know the third parties to whom data has been transferred, domestically or abroad,
-- Request correction of incomplete or inaccurate data,
-- Request erasure or destruction of your data,
-- Request that any correction or erasure be communicated to third parties,
-- Object to outcomes derived from purely automated processing,
-- Claim damages where unlawful processing has caused harm.
+---
 
-To exercise these rights, contact monurgungor6@gmail.com. Per KVKK Article 13, we will respond within thirty (30) days.
+## 8. Explicit Consent
 
-## 9. Changes to This Policy
+Legal basis for crash/diagnostics: explicit consent. It is **specific** (separate toggle), **informed** (this notice), **freely given** (all defaults OFF; core app fully functional without any consent), and **revocable** (Settings at any time). Service use is **not** conditioned on these non-essential processings.
 
-We may update this privacy policy from time to time. Significant changes will be announced inside the app, and the "Last updated" date will be revised on each revision.
+---
 
-## 10. Contact
+## 9. Children's Privacy
 
-For all privacy-related questions and KVKK requests:
+4+ rating, not directed at children under 13. We do not knowingly collect personal data from children under 13.
 
+---
+
+## 10. Data Security (KVKK Art. 12)
+
+TLS/HTTPS; origin/destination coarsened before logging; IP redacted from logs; Crashlytics not initialized until consent. Breach notification to the Board within 72 hours per Board decision 2019/10.
+
+---
+
+## 11. VERBİS
+
+As an individual below Board threshold (2023/1154: <50 employees, <100M TL balance, no special-category processing as main activity), the controller is very likely exempt from registry. All KVKK obligations still apply.
+
+---
+
+## 12. Changes to This Policy
+
+For material changes that expand data collection, we will re-inform you in-app and obtain explicit consent again rather than relying on continued use.
+
+---
+
+## 13. Contact
+
+**Data controller:** Mehmet Onur Güngör (İstanbul, Türkiye)
 **Email:** monurgungor6@gmail.com
